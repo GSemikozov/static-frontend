@@ -1,0 +1,196 @@
+@import "partials/variables";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  //background-color: $body-bg;
+  font-family: Roboto, 'Open Sans', sans-serif;
+  font-size: 1rem;
+  //color: $body-font-color;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  position: relative;
+}
+
+.theme-blue {
+
+  @import "partials/custom";
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic-ext');
+
+  ///*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+  ///*html,
+  //body,
+  //p,
+  //ol,
+  //ul,
+  //li,
+  //dl,
+  //dt,
+  //dd,
+  //blockquote,
+  //figure,
+  //fieldset,
+  //legend,
+  //textarea,
+  //pre,
+  //iframe,
+  //hr,
+  //h1,
+  //h2,
+  //h3,
+  //h4,
+  //h5,
+  //h6 {
+  //  margin: 0;
+  //  padding: 0;
+  //}
+  //
+  //h1,
+  //h2,
+  //h3,
+  //h4,
+  //h5,
+  //h6 {
+  //  font-size: 100%;
+  //  font-weight: normal;
+  //}
+  //
+  //ul {
+  //  list-style: none;
+  //}
+  //
+  //button,
+  //input,
+  //select,
+  //textarea {
+  //  margin: 0;
+  //}
+  //
+  //html {
+  //  -webkit-box-sizing: border-box;
+  //  box-sizing: border-box;
+  //}*/
+  //
+  //* {
+  //  //-webkit-box-sizing: inherit;
+  //  //box-sizing: inherit;
+  //}
+  //
+  //*:before, *:after {
+  //  //-webkit-box-sizing: inherit;
+  //  //box-sizing: inherit;
+  //}
+  //
+  ///*mbed,
+  //object,
+  //audio,
+  //video {
+  //  max-width: 100%;
+  //}
+  //
+  //iframe {
+  //  border: 0;
+  //}
+  //
+  //table {
+  //  border-collapse: collapse;
+  //  border-spacing: 0;
+  //}
+  //
+  //td,
+  //th {
+  //  padding: 0;
+  //  text-align: left;
+  //}
+  //
+  //article,
+  //aside,
+  //figure,
+  //footer,
+  //header,
+  //hgroup,
+  //section {
+  //  display: block;
+  //}
+  //
+  //code,
+  //pre {
+  //  -moz-osx-font-smoothing: auto;
+  //  -webkit-font-smoothing: auto;
+  //  font-family: monospace;
+  //}*/
+
+  .container {
+    @media (min-width: 1200px) {
+      width: 1200px !important;
+      max-width: 1200px !important;
+    }
+  }
+
+  #wrapper {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+   }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  .text-white {
+    color: #fff;
+  }
+
+  .padding-y-lg {
+    padding: 80px 0;
+  }
+  .grey-bg-light {
+    background-color: #f6f7f9;
+  }
+  .dark-bg-light {
+    background-color: rgba(67,70,89,1);
+  }
+  /*h2 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 60px;
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+  }
+  h5 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+  }
+  h2, h3, h4, h5 {
+    //word-break: break-word;
+  }*/
+}

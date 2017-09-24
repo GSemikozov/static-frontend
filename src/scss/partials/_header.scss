@@ -1,0 +1,12 @@
+#logo {
+  width: 150px;
+  display: inline-flex;
+  overflow: hidden;
+  @include respond-to(phones) {
+    height: 30px;
+    width: auto;
+  }
+  img {
+    flex-shrink: 0;
+  }
+}

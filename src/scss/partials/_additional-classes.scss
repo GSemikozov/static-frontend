@@ -1,0 +1,15 @@
+@import '_mixins';
+.visible-xs {
+  @include respond-to(phones) {
+    display: block;
+  }
+}
+.hidden-xs {
+  @include respond-to(phones) {
+    display: none;
+  }
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
